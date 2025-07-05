@@ -1,7 +1,7 @@
 apiVersion: v2
-name: my-app-wrapper
+name: test-chartmuseum-app
 version: 0.1.0
 dependencies:
-  - name: my-service-chart
-    version: 1.2.3
-    repository: "https://chartmuseum.mycompany.com"
+  - name: hello-world
+    version: 0.1.0
+    repository: "http://chartmuseum.chartmuseum.svc:8080/"
