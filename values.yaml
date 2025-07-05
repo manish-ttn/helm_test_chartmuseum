@@ -1,0 +1,6 @@
+replicaCount: 2
+image:
+  tag: "latest"
+resources:
+  limits:
+    memory: "256Mi"
